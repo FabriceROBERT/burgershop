@@ -15,7 +15,9 @@ module.exports = {
     colors: {
       transparent: "transparent",
       current: "currentColor",
-
+      primary: "#ffc045",
+      secondary: "#3d2514",
+      "red-primary": "#bf2222",
       black: colors.black,
       white: colors.white,
       gray: colors.coolGray,
@@ -247,6 +249,7 @@ module.exports = {
       DEFAULT: "1",
     },
     fontFamily: {
+      secondary: ['"Alfa Slab One"'],
       sans: [
         "ui-sans-serif",
         "system-ui",
