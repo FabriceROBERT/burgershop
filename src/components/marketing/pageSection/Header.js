@@ -1,10 +1,10 @@
 import React from "react";
 import Logo from "../../../medias/svg/Logo-burger-house.svg";
 import Icone from "../../../medias/svg/ico-bag-clickAndCollect.svg";
-import Button from "../../elements/Button.js";
+import Button from "../../elements/Button";
 const Header = () => {
   return (
-    <div className="flex items-center justify-between py-10">
+    <div className=" relative z-10 flex items-center justify-between py-10">
       <div className=" w-full">
         <img src={Logo} alt="Burger House App" className="w-64" />
       </div>
@@ -14,10 +14,8 @@ const Header = () => {
           <span>Commandez votre repas en ligne</span>
         </div>
         <div className="flex items-center justify-end">
-          <Button className={" bg-primary hover:bg-secondary mr-2"}>
-            Inscription
-          </Button>
-          <Button className={" bg-secondary hover:bg-primary"}>
+          <Button className="mr-3 tracking-widest">Inscription</Button>
+          <Button className="tracking-widest" color="secondary">
             Connexion
           </Button>
         </div>
