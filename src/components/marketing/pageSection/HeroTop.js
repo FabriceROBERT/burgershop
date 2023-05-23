@@ -7,9 +7,9 @@ import Button from "../../elements/Button";
 
 const HeroTop = () => {
   return (
-    <div className="bg-primary w-full h-screen">
+    <div className="bg-primary w-full ">
       <div
-        className="bg-repeat w-full h-full"
+        className="bg-repeat w- pb-40 h-full"
         style={{ backgroundImage: `url(${Illustration})` }}
       >
         <Container>
@@ -20,11 +20,23 @@ const HeroTop = () => {
               src={Product}
               alt="ue menu hamburger avec frites et coca-cola"
             />
+            <div className="absolute right-80 top-40 rounded-full bg-red-primary w-40 h-40 p-3">
+              <div className="w-full h-full rounded-full border-2 border-dashed border-white text-white flex items-center justify-center">
+                <div className="text-center">
+                  <span className=" block font-extrabold ">
+                    <span className="text-5xl">5</span>.49€
+                  </span>
+                  <span className="tracking-widest uppercase text-sm">
+                    Seulement
+                  </span>
+                </div>
+              </div>
+            </div>
             <div className="relative z-1 text-secondary uppercase ">
               <h1 className=" mb-4 font-semibold ">
                 C'est le moment de goûter au bon goût des hamburgers.
               </h1>
-              <h2 className="font-secondary">
+              <h2 className=" shadowTitleSecondary font-secondary">
                 <span className="text-8xl block">Burger </span>
                 <span className="text-6xl">House </span>
                 <span className="text-4xl ">
