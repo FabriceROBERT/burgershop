@@ -19,7 +19,7 @@ const Header = () => {
             Connexion
           </Button>
         </div>
-        {/* Envie de gouter au bon goût des hamburgers ? */}
+       
       </div>
     </div>
   );

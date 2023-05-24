@@ -53,6 +53,9 @@ module.exports = {
       12: "3rem",
       14: "3.5rem",
       16: "4rem",
+      17: "4.25rem",
+      18: "4.50rem",
+      19: "4.75rem",
       20: "5rem",
       24: "6rem",
       28: "7rem",
@@ -253,6 +256,7 @@ module.exports = {
     },
     fontFamily: {
       secondary: ['"Alfa Slab One"'],
+      roboto: ['"Roboto"'],
       sans: [
         "ui-sans-serif",
         "system-ui",

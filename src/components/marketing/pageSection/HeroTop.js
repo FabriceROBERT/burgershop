@@ -26,15 +26,15 @@ const HeroTop = () => {
                   <span className=" block font-extrabold ">
                     <span className="text-5xl">5</span>.49€
                   </span>
-                  <span className="tracking-widest uppercase text-sm">
+                  <span className="tracking-widest uppercase font-bold text-sm">
                     Seulement
                   </span>
                 </div>
               </div>
             </div>
             <div className="relative z-1 text-secondary uppercase ">
-              <h1 className=" mb-4 font-semibold ">
-                C'est le moment de goûter au bon goût des hamburgers.
+              <h1 className=" mb-2 font-extrabold ">
+                Envie de gouter au bon goût des hamburgers ?
               </h1>
               <h2 className=" shadowTitleSecondary font-secondary">
                 <span className="text-8xl block">Burger </span>
