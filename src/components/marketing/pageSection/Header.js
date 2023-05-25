@@ -19,7 +19,6 @@ const Header = () => {
             Connexion
           </Button>
         </div>
-       
       </div>
     </div>
   );

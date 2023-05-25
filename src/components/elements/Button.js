@@ -5,7 +5,7 @@ const Button = ({ children, className, color, theme }) => {
   //1ere Facon:
   // if (color === "secondary") {
   //   background = "bg-secondary hover:bg-secondary-hover";
-  // } else if (color === "danger") {
+  // } else if (color === "danger") {S
   //   background = "bg-red-primary hover:bg-red-primary-hover";
   // } else {
   //   background = "bg-primary hover:bg-primary-hover";
