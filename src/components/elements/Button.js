@@ -47,6 +47,17 @@ const Button = ({ children, className, color, theme }) => {
           </button>
         </div>
       );
+    case "pop":
+      return (
+        <div>
+          <button
+            className={`${className} ${background} mt-6 px-8 py-4 uppercase shadow-xl  text-white 
+             text-base font-secondary animate`}
+          >
+            {children}
+          </button>
+        </div>
+      );
     default:
       return (
         <div>
