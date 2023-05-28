@@ -12,7 +12,9 @@ const Product = () => {
   return (
     <Container>
       <HeadingTitles>Toujours des délicieux burgers</HeadingTitles>
-      <Heading theme="secondary">Choisissez et savourez</Heading>
+      <Heading alignement="center" theme="secondary" className="my-5">
+        Choisissez et savourez
+      </Heading>
 
       <p className="text-center">
         Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
@@ -31,8 +33,8 @@ const Product = () => {
               className=" absolute top-0 left-0 h-full object-cover z-0"
             />
           </div>
-          <div className="flex items-center justify-center flex-col px-5 pb-5 ">
-            <Heading variant="h3">Lorem ipsum dolor</Heading>
+          <div className="flex items-center justify-center flex-col my-5 px-5 pb-5 ">
+            <Heading variant="h3">In & Out</Heading>
             <p className="text-center">
               Lorem ipsum, or lipsum as it is sometimes known, is dummy text
               used in laying out print, graphic or web designs.
@@ -50,8 +52,8 @@ const Product = () => {
               className=" absolute top-0 left-0 h-full object-cover z-0"
             />
           </div>
-          <div className="flex items-center justify-center flex-col px-5 pb-5">
-            <Heading variant="h3">Lorem ipsum dolor</Heading>
+          <div className="flex items-center justify-center flex-col px-5 my-5 pb-5">
+            <Heading variant="h3">Double S'</Heading>
             <p className="text-center">
               Lorem ipsum, or lipsum as it is sometimes known, is dummy text
               used in laying out print, graphic or web designs.
@@ -69,8 +71,8 @@ const Product = () => {
               className=" absolute top-0 left-0 h-full object-cover z-0"
             />
           </div>
-          <div className="flex items-center justify-center flex-col px-5 pb-5 ">
-            <Heading variant="h3">Lorem ipsum dolor</Heading>
+          <div className="flex items-center justify-center flex-col px-5 pb-5 my-5 ">
+            <Heading variant="h3">Virginia</Heading>
             <p className="text-center">
               Lorem ipsum, or lipsum as it is sometimes known, is dummy text
               used in laying out print, graphic or web designs.
