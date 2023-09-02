@@ -40,8 +40,8 @@ const Button = ({ children, className, color, theme }) => {
       return (
         <div>
           <button
-            className={`${className} ${background} mt-6 px-8 py-4 uppercase shadow-xl tracking-widest text-white 
-             text-base font-medium animate`}
+            className={`${className} ${background} mt-6 px-4 md:px-8 py-4 uppercase shadow-xl tracking-widest text-white 
+            text-sm md:text-base font-medium animate`}
           >
             {children}
           </button>
@@ -63,7 +63,7 @@ const Button = ({ children, className, color, theme }) => {
         <div>
           <button
             className={`${className} ${background} mt-6 px-4 py-3 uppercase shadow-xl text-white 
-             text-sm font-medium animate`}
+             text-xs md:text-sm font-medium animate`}
           >
             {children}
           </button>

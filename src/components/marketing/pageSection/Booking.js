@@ -89,7 +89,7 @@ export default function Booking() {
                 // evite les champs automatiques
                 autoComplete="off"
                 className="bg-red-primary cursor-pointer hover:bg-red-primary-hover w-full text-white font-secondary tracking-widest rounded-md animate uppercase py-5"
-                value="Reservez"
+                value="Reservez votre table"
               />
             </div>
           </form>

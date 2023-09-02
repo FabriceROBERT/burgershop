@@ -49,7 +49,7 @@ export default function Heading(props) {
         <div className={`flex  ${align} `}>
           <h2
             className={`text-2xl ${classDefault}  ${font}   ${color}  ${className}`}
-          >
+            >
             {children}
           </h2>
         </div>
