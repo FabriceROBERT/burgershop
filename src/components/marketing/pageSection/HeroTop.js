@@ -16,11 +16,12 @@ const HeroTop = () => {
           <Header />
           <div className="relative mt-10 md:mt-28 w-full ">
             <img
-              className="absolute hidden md:block z-0 -top-64 right-0 w-6/12"
+              className="absolute hidden lg:block animate z-0 -top-20 lg:-top-64 right-0 "
+              style={{ width: "568px" }}
               src={Product}
               alt="ue menu hamburger avec frites et coca-cola"
             />
-            <div className="absolute right-80 top-40 rounded-full hidden md:block bg-red-primary w-40 h-40 p-3">
+            <div className="absolute right-80 top-40 rounded-full hidden lg:block bg-red-primary w-40 h-40 p-3">
               <div className="w-full h-full rounded-full border-2 border-dashed border-white text-white flex items-center justify-center">
                 <div className="text-center">
                   <span className=" block font-extrabold ">
@@ -32,7 +33,7 @@ const HeroTop = () => {
                 </div>
               </div>
             </div>
-            <div className="relative z-1 text-secondary uppercase ">
+            <div className="relative z-1 text-secondary md:text-center lg:text-left uppercase ">
               <h1 className=" mb-2 font-extrabold  ">
                 Envie de gouter au bon goût des hamburgers ?
               </h1>
@@ -53,7 +54,11 @@ const HeroTop = () => {
             Creer mon compte
           </Button>
           <Button className="mt-5">Creer mon compte</Button> */}
-          <Button className="mt-5 rounded-md" color="secondary" theme="big">
+          <Button
+            className="mt-5 rounded-md w-full lg:w-80"
+            color="secondary"
+            theme="big"
+          >
             Créer mon compte
           </Button>
         </Container>
