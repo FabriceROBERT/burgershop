@@ -49,7 +49,7 @@ export default function Heading(props) {
         <div className={`flex  ${align} `}>
           <h2
             className={`text-2xl ${classDefault}  ${font}   ${color}  ${className}`}
-            >
+          >
             {children}
           </h2>
         </div>
@@ -70,7 +70,7 @@ export default function Heading(props) {
         <div className={`flex ${align}`}>
           <h2
             className={` ${
-              theme === "secondary" ? "text-5xl" : "text-3xl"
+              theme === "secondary" ? " text-3xl lg:text-5xl" : "text-3xl"
               // si theme est secondary alors text-5xl sinon si c'est default retourne text-3xl
             } ${classDefault} ${font} ${color}  ${className}`}
           >

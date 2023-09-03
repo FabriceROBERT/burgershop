@@ -14,7 +14,7 @@ export default function Event() {
 
   const Slide = ({ children, category, title, Image }) => {
     return (
-      <div className="grid grid-cols-2 p-6 h-96 w-full">
+      <div className="grid md:grid-cols-2 p-6 ">
         <div className="py-10  px-5  ">
           <Heading variant="h4" className="">
             {category}
@@ -28,11 +28,11 @@ export default function Event() {
             {title}
           </Heading>
 
-          <p className="pb-10 tracking-wide text-base leading-relaxed font-light">
+          <p className="md:pb-10 pb-0 tracking-wide text-base leading-relaxed font-light">
             {children}
           </p>
         </div>
-        <div className="relative w-full h-full">
+        <div className="relative w-full h-96 md:h-full">
           <img
             className=" absolute top-0 left-0 w-full h-80 object-cover object-center"
             src={Image}

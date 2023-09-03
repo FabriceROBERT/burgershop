@@ -9,17 +9,29 @@ export default function Booking() {
   return (
     <Container>
       <div className="relative mb-20">
-        <img src={Burger} alt="" className="absolute -top-20 -left-36  z-10" />
-        <img src={Sauce} alt="" className="absolute -bottom-10 left-0" />
-        <img src={Assiette} alt="" className=" absolute -right-96 -bottom-52" />
-        <div className="max-w-3xl mx-auto py-20 px-10">
-          <Heading variant="h2" alignement="center">
+        <img
+          src={Burger}
+          alt=""
+          className="absolute hidden lg:block -top-20 -left-36  z-10"
+        />
+        <img
+          src={Sauce}
+          alt=""
+          className="absolute hidden lg:block -bottom-10 left-0"
+        />
+        <img
+          src={Assiette}
+          alt=""
+          className=" absolute hidden lg:block -right-96 -bottom-52"
+        />
+        <div className="max-w-3xl mx-auto md:py-20 px-10">
+          <Heading variant="h2" className="text-center" alignement="center">
             Réservation
           </Heading>
           <Heading theme="secondary" alignement="center" className="mt-5 ">
             Réservez votre table
           </Heading>
-          <form className="grid grid-cols-2 gap-x-7 gap-y-6 mt-20">
+          <form className="grid md:grid-cols-2 gap-x-7 gap-y-6 mt-20">
             <div>
               <label htmlFor="name">Nom : </label>
               <input
@@ -69,7 +81,7 @@ export default function Booking() {
             <div>
               <label htmlFor="customers">Nombre de personnes :</label>
               <input
-                type="text"
+                type="number"
                 name="customers"
                 id="customers"
                 // evite les champs automatiques
