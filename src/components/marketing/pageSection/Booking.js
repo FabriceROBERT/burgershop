@@ -24,11 +24,15 @@ export default function Booking() {
           alt=""
           className=" absolute hidden lg:block -right-96 -bottom-52"
         />
-        <div className="max-w-3xl mx-auto md:py-20 px-10">
+        <div className="md:max-w-3xl mx-auto md:py-20 px-10">
           <Heading variant="h2" className="text-center" alignement="center">
             Réservation
           </Heading>
-          <Heading theme="secondary" alignement="center" className="mt-5 ">
+          <Heading
+            theme="secondary"
+            alignement="center"
+            className="mt-5 text-center "
+          >
             Réservez votre table
           </Heading>
           <form className="grid md:grid-cols-2 gap-x-7 gap-y-6 mt-20">

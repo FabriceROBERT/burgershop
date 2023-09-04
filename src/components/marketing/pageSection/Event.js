@@ -20,7 +20,7 @@ export default function Event() {
             {category}
           </Heading>
           <Heading
-            className="my-4 tracking-wide"
+            className="my-4 text-lg md:text-xl tracking-wide"
             theme="secondary"
             variant="h2"
             alignement=""
@@ -34,7 +34,7 @@ export default function Event() {
         </div>
         <div className="relative w-full h-96 md:h-full">
           <img
-            className=" absolute top-0 left-0 w-full h-80 object-cover object-center"
+            className=" absolute top-0 left-0 w-full h-80 lg:object-cover object-center"
             src={Image}
             alt=""
           />
