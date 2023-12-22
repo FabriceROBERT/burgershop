@@ -23,7 +23,7 @@ export default function TripleBurgers() {
       </div>
       <div className=" relative w-full h-96">
         <img className="w-full h-full object-cover" src={Image2} alt="" />
-        <div className="text-center">
+        <div className="text-center"> 
           <Heading variant="">Lorem Ipsum Dolor</Heading>
           <p className="">
             Lorem ipsum, or lipsum as it is sometimes known, is dummy text used
